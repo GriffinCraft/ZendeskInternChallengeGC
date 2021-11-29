@@ -15,4 +15,3 @@ class TestZCC(unittest.TestCase):
         self.assertRaises(ValueError, print_tix, 0, 100, None)
         #Error for ticket arr with no values
         self.assertRaises(ValueError, print_tix, 0, 0, tempArr)
-        
